@@ -1,0 +1,16 @@
+Package: constantes
+Title: Constantes y unidades
+Version: 0.0.0.9000
+Authors@R: 
+    person("Pablo", "García Pascual", , "bitacoras@protonmail.com.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-3212-9779"))
+Description: El paquete constantes aporta valores de constantes de diversos tipos 
+              así como factores de conversión de diferentes unidades y magitudes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
