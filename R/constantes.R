@@ -1,5 +1,12 @@
 # Constantes generales ----
-Pi   = acos(-1)    # 3.1415926535897931
+#' Número Pi
+#'
+#' @return
+#' @export
+#'
+#' @examples
+Pi <- function() {acos(-1)}    # 3.1415926535897931
+
 R    = 8.31446261815324 # [kJ/kmol K]  m^3 Pa/(mol K)   R = 82.0578/(10^3);  % gas constant with units of m^3*atm/kg-mol/K
 g    = 9.80665     # [m/s^2]      Earth-surface gravitational acceleration
 L    = 0.0065      # [K/m]        temperature lapse rate
